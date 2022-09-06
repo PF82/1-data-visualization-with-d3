@@ -19,9 +19,7 @@ Select all of the li tags in the document, and change their text to the string l
   </ul>
   <script>
     // Add your code below this line
-
-
-
+    d3.selectAll("li").text("list item");
   // Add your code above this line
   </script>
 </body>

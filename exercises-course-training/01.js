@@ -31,12 +31,12 @@ Use the select method to select the body tag in the document. Then append an h1 
 */
 
 <body>
-    <script>
+  <script>
     // Add your code below this line
-
-
-
-    // Add your code above this line
-    </script>
+    d3.select("body")
+    .append("h1")
+    .text("Learning D3");
+  // Add your code above this line
+  </script>
 </body>
 

@@ -29,9 +29,7 @@ string USD. For example, the first heading should be 12 USD.
         .enter()
         .append("h2")
         // Add your code below this line
-
-        .text("New Title");
-
+        .text((d) => d + ' USD');
     // Add your code above this line
     </script>
 </body>
