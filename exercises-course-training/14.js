@@ -36,9 +36,7 @@ differences between bar values in this example.
         .attr("width", 25)
        .attr("height", (d, i) => {
             // Add your code below this line
-
-
-
+            return d * 3
             // Add your code above this line
         });
     </script>
