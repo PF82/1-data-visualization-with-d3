@@ -26,11 +26,9 @@ Change the scale variable to create a linear scale. Then set the output variable
 
 <body>
     <script>
-    // Add your code below this line
-
-        const scale = undefined; // Create the scale here
-        const output = scale(); // Call scale with an argument here
-
+        // Add your code below this line
+        const scale = d3.scaleLinear(); // Create the scale here
+        const output = scale(50); // Call scale with an argument here
         // Add your code above this line
 
         d3.select("body")
