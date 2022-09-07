@@ -46,9 +46,7 @@ work in this example.
         .append("rect")
        .attr("x", (d, i) => {
             // Add your code below this line
-
-
-
+            return i * 30;
             // Add your code above this line
         })
         .attr("y", 0)

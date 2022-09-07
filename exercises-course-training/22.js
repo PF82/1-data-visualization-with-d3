@@ -46,9 +46,9 @@ The cy value should be based off the second number in the array, but make sure t
         .enter()
         .append("circle")
     // Add your code below this line
-
-
-
+       .attr("cx", (d) => d[0])
+       .attr("cy", (d) => h - d[1])
+       .attr("r", 5)
     // Add your code above this line
 
     </script>

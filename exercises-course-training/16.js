@@ -30,9 +30,7 @@ Add an attr() method to set the fill of all the bars to the color navy.
         .attr("width", 25)
        .attr("height", (d, i) => 3 * d)
     // Add your code below this line
-
-
-
+    .attr("fill", "navy")
     // Add your code above this line
     </script>
 </body>

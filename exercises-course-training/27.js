@@ -71,10 +71,9 @@ first argument, and the lower value is the second argument.
         .range([padding, w - padding]);
 
         // Add your code below this line
-
-        const yScale = undefined;
-
-
+        const yScale = d3.scaleLinear()
+        .domain([0, d3.max(dataset, (d) => d[1])])
+        .range([h - padding, padding]);;
         // Add your code above this line
 
         const output = yScale(411); // Returns 30

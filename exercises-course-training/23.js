@@ -51,9 +51,9 @@ cx attribute on the circle. Set the y attribute the same way that's used for the
         .enter()
         .append("text")
     // Add your code below this line
-
-
-
+       .attr("x", (d) => d[0] + 5)
+       .attr("y", (d) => h - d[1])
+       .text((d) => (d[0] + ", " + d[1]))
     // Add your code above this line
     </script>
 </body>

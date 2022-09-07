@@ -37,9 +37,9 @@ Note: The circles won't be visible because we haven't set their attributes yet. 
 
         svg.selectAll("circle")
     // Add your code below this line
-
-
-
+       .data(dataset)
+       .enter()
+       .append("circle")
     // Add your code above this line
 
     </script>

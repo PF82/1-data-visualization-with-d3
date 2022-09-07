@@ -38,9 +38,7 @@ over it.
        .attr("height", (d, i) => 3 * d)
        .attr("fill", "navy")
        // Add your code below this line
-
-
-
+       .attr("class", "bar")
        // Add your code above this line
 
     svg.selectAll("text")

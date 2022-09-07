@@ -34,9 +34,9 @@ always have a 5:1 width to height ratio, no matter what the zoom level is.
 
     const svg = d3.select("body")
                   // Add your code below this line
-
-
-
+                  .append("svg")
+                  .attr("width", 500)
+                  .attr("height", 100)
                   // Add your code above this line
   </script>
 </body>

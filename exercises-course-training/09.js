@@ -20,8 +20,7 @@ of the underlying data.
     width: 25px;
     height: 100px;
     /* Add your code below this line */
-
-    
+    margin: 2px;
     /* Add your code above this line */
     display: inline-block;
     background-color: blue;
@@ -36,6 +35,6 @@ of the underlying data.
       .enter()
       .append("div")
       .attr("class", "bar")
-      .style("height", (d) => (d + "px")) // Change this line
+      .style("height", (d) => (d * 10 + "px")) // Change this line
   </script>
 </body>

@@ -37,9 +37,8 @@ Set the font-size of the text elements to 25px, and the color of the text to red
        .attr("x", (d, i) => i * 30)
        .attr("y", (d, i) => h - (3 * d) - 3)
     // Add your code below this line
-
-
-
+    .attr("fill", "red")
+    .style("font-size", "25px")
     // Add your code above this line
     </script>
 </body>

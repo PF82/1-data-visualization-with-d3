@@ -33,9 +33,9 @@ top of each other; this will be fixed in the next challenge.
 
         svg.selectAll("rect")
         // Add your code below this line
-
-
-
+        .data(dataset)
+        .enter()
+        .append("rect")
         // Add your code above this line
         .attr("x", 0)
         .attr("y", 0)

@@ -42,9 +42,7 @@ Note: In general, the relationship is y = h - m * d, where m is the constant tha
        .attr("x", (d, i) => i * 30)
        .attr("y", (d, i) => {
             // Add your code below this line
-
-
-
+            return h - 3 * d
             // Add your code above this line
         })
         .attr("width", 25)

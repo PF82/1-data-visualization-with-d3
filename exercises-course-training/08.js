@@ -34,9 +34,7 @@ value of the data point with the string px added to it.
       .append("div")
       .attr("class", "bar")
       // Add your code below this line
-
-
-
+      .style('height', d => `${d}px`)
       // Add your code above this line
   </script>
 </body>

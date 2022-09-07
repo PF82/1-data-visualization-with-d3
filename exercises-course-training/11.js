@@ -32,10 +32,12 @@ rect x and y attributes each set to 0.
         .append("svg")
         .attr("width", w)
         .attr("height", h)
-    // Add your code below this line
-
-
-
-    // Add your code above this line
+        // Add your code below this line
+        .append("rect")
+        .attr("width", 25)
+        .attr("height", 100)
+        .attr("x", 0)
+        .attr("y", 0)
+        // Add your code above this line
     </script>
 </body>

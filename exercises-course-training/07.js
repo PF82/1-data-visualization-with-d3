@@ -31,9 +31,7 @@ Add the attr() method to the code in the editor and put a class of bar on the di
       .enter()
       .append("div")
       // Add your code below this line
-
-
-
+      .attr("class", "bar");
       // Add your code above this line
   </script>
 </body>
