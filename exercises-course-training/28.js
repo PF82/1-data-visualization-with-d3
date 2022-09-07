@@ -57,9 +57,9 @@ add 10 units to the x data value before passing it to the xScale.
         .enter()
         .append("circle")
         // Add your code below this line
-
-
-
+        .attr("cx", (d) => xScale(d[0]))
+        .attr("cy", (d) => yScale(d[1]))
+        .attr("r", 5);
         // Add your code above this line
 
         svg.selectAll("text")
@@ -68,10 +68,9 @@ add 10 units to the x data value before passing it to the xScale.
         .append("text")
        .text((d) =>  (d[0] + ", "
         + d[1]))
-    // Add your code below this line
-
-
-
-    // Add your code above this line
+        // Add your code below this line
+        .attr("x", (d) => xScale(d[0] + 10))
+        .attr("y", (d) => yScale(d[1]));
+        // Add your code above this line
     </script>
 </body>

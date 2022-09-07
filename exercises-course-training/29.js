@@ -80,7 +80,7 @@ class MyForm extends React.Component {
 
         const xAxis = d3.axisBottom(xScale);
         // Add your code below this line
-        const yAxis = undefined;
+        const yAxis = d3.axisLeft(yScale);
         // Add your code above this line
 
         svg.append("g")
@@ -88,9 +88,9 @@ class MyForm extends React.Component {
         .call(xAxis);
 
     // Add your code below this line
-
-
-
+        svg.append("g")
+       .attr("transform", "translate(" + padding + ",0)")
+       .call(yAxis)
     // Add your code above this line
 
     </script>

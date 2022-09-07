@@ -32,7 +32,7 @@ The positionData array holds sub arrays of x, y, and z coordinates. Use a D3 met
         const positionData = [[1, 7, -4],[6, 3, 8],[2, 9, 3]]
         // Add your code below this line
 
-        const output = undefined; // Change this line
+        const output = d3.max(positionData, (d) => d[2]); // Change this line
 
         // Add your code above this line
 
