@@ -37,9 +37,8 @@ Append a title element under each rect node. Then call the text() method with a 
        .attr("fill", "navy")
        .attr("class", "bar")
        // Add your code below this line
-
-
-
+       .append("title")
+       .text((d) => d)
        // Add your code above this line
 
     svg.selectAll("text")
